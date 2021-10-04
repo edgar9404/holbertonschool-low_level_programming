@@ -11,7 +11,6 @@ int main(void)
 	int doubleSize = sizeof(double);
 	int floatSize = sizeof(float);
 
-
 	printf("size of a char: %d byte(s)\n", charSize);
 	printf("size of a double: %d", doubleSize);
 	printf("size of a float: %d", floatSize);
