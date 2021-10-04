@@ -3,7 +3,7 @@
 /**
  * main - Prints string
  *
- * Return (0)
+ * Return: zero return main
  *
  *
  */
