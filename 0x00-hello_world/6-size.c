@@ -1,9 +1,9 @@
 #include <stdio.h>
 
-/*
- * main - Prints quote s
+/**
+ * main - Prints quote
  *
- * return: (0)
+ * Return: zero on success
  *
  */
 int main(void)
