@@ -1,6 +1,7 @@
 #include <stdio.h>
+
 /*
- * main - start function of the program
+ * main - Prints quote s
  *
  * return: (0)
  *
@@ -8,12 +9,15 @@
 int main(void)
 {
 	int charSize = sizeof(char);
-	int doubleSize = sizeof(double);
+	int intSize = sizeof(int);
+	int longSize = sizeof(long int);
+	int longlongSize = sizeof(long long int);
 	int floatSize = sizeof(float);
 
-	printf("size of a char: %d byte(s)\n", charSize);
-	printf("size of a double: %d", doubleSize);
-	printf("size of a float: %d", floatSize);
-
+	printf("Size of a char: %d byte(s)\n", charSize);
+	printf("Size of an int: %d byte(s)\n", intSize);
+	printf("Size of a long int: %d byte(s)\n", longSize);
+	printf("Size of a long long int: %d byte(s)\n", longlongSize);
+	printf("Size of a float: %d byte(s)\n", floatSize);
 	return (0);
 }
