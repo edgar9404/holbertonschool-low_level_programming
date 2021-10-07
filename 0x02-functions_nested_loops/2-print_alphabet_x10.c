@@ -1,7 +1,7 @@
 #include "main.h"
 
 /*
- * print_alphabet_x10 - print alphabet 10 times
+ * @print_alphabet_x10 - print alphabet 10 times
  * print_alphabet - print lowercase alphabet
  * execute a program that:
  * first loop print x10 alphabet \n
