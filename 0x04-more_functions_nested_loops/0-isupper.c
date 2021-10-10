@@ -2,9 +2,9 @@
 
 
 /**
- * _isupper - if value is upper case
+ * _isupper - function if value is upper case
  *
- * @c - character for check
+ * @c: character to be checked
  *
  * Return: 1 if c is capital, otherwise 0
  **/
