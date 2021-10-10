@@ -4,6 +4,7 @@
 /**
  * _isupper - if value is upper case
  *
+ * @c - character for check
  *
  * Return: 1 if c is capital, otherwise 0
  **/
